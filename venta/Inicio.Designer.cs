@@ -1,6 +1,6 @@
 ﻿namespace venta
 {
-    partial class Form1
+    partial class Inicio
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -76,6 +76,7 @@
             this.txtDNI.Name = "txtDNI";
             this.txtDNI.Size = new System.Drawing.Size(100, 20);
             this.txtDNI.TabIndex = 13;
+            this.txtDNI.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDNI_KeyPress);
             // 
             // label3
             // 
@@ -109,6 +110,7 @@
             this.txtNom.Size = new System.Drawing.Size(100, 20);
             this.txtNom.TabIndex = 9;
             this.txtNom.TextChanged += new System.EventHandler(this.txtNom_TextChanged);
+            this.txtNom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNom_KeyPress);
             // 
             // label1
             // 
@@ -136,7 +138,7 @@
             this.groupBox1.Controls.Add(this.txtNomLogin);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Location = new System.Drawing.Point(12, 107);
+            this.groupBox1.Location = new System.Drawing.Point(25, 100);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(213, 144);
             this.groupBox1.TabIndex = 17;
@@ -168,6 +170,7 @@
             this.txtNomLogin.Name = "txtNomLogin";
             this.txtNomLogin.Size = new System.Drawing.Size(100, 20);
             this.txtNomLogin.TabIndex = 19;
+            this.txtNomLogin.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNomLogin_KeyPress);
             // 
             // label5
             // 
@@ -207,7 +210,7 @@
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.bttnRegistrar);
             this.groupBox2.Controls.Add(this.txtContra);
-            this.groupBox2.Location = new System.Drawing.Point(22, 86);
+            this.groupBox2.Location = new System.Drawing.Point(31, 62);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(212, 185);
             this.groupBox2.TabIndex = 22;
@@ -250,16 +253,16 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
-            // Form1
+            // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(267, 292);
+            this.ClientSize = new System.Drawing.Size(269, 275);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Form1";
+            this.Name = "Inicio";
             this.Text = "Bienvenidos!!!";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
