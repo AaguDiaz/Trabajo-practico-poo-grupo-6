@@ -1,12 +1,7 @@
 C:\Users\Agustin\source\repos\venta\Modelo\bin\Debug\Modelo.dll.config
 C:\Users\Agustin\source\repos\venta\Modelo\bin\Debug\Modelo.dll
 C:\Users\Agustin\source\repos\venta\Modelo\bin\Debug\Modelo.pdb
-C:\Users\Agustin\source\repos\venta\Modelo\bin\Debug\EntityFramework.dll
-C:\Users\Agustin\source\repos\venta\Modelo\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Agustin\source\repos\venta\Modelo\bin\Debug\EntityFramework.xml
-C:\Users\Agustin\source\repos\venta\Modelo\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Agustin\source\repos\venta\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
 C:\Users\Agustin\source\repos\venta\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
-C:\Users\Agustin\source\repos\venta\Modelo\obj\Debug\Modelo.csproj.CopyComplete
 C:\Users\Agustin\source\repos\venta\Modelo\obj\Debug\Modelo.dll
 C:\Users\Agustin\source\repos\venta\Modelo\obj\Debug\Modelo.pdb
