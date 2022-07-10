@@ -18,3 +18,21 @@ C:\Users\Agustin\source\repos\venta\venta\obj\Debug\venta.pdb
 C:\Users\Agustin\source\repos\venta\venta\obj\Debug\venta.Inicio.resources
 C:\Users\Agustin\source\repos\venta\venta\obj\Debug\venta.Admin.resources
 C:\Users\Agustin\source\repos\venta\venta\obj\Debug\venta.Cliente.resources
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\venta\bin\Debug\venta.exe.config
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\venta\bin\Debug\venta.exe
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\venta\bin\Debug\venta.pdb
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\venta\bin\Debug\Controladora.dll
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\venta\bin\Debug\Modelo.dll
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\venta\bin\Debug\Controladora.pdb
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\venta\bin\Debug\Controladora.dll.config
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\venta\bin\Debug\Modelo.pdb
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\venta\bin\Debug\Modelo.dll.config
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\venta\obj\Debug\vista.csproj.AssemblyReference.cache
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\venta\obj\Debug\venta.Cliente.resources
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\venta\obj\Debug\venta.Inicio.resources
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\venta\obj\Debug\venta.Admin.resources
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\venta\obj\Debug\venta.Properties.Resources.resources
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\venta\obj\Debug\vista.csproj.GenerateResource.cache
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\venta\obj\Debug\vista.csproj.CoreCompileInputs.cache
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\venta\obj\Debug\venta.exe
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\venta\obj\Debug\venta.pdb
