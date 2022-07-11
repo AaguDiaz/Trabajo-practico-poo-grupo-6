@@ -78,7 +78,7 @@
             // 
             this.txtFactura.Location = new System.Drawing.Point(198, 62);
             this.txtFactura.Name = "txtFactura";
-            this.txtFactura.Size = new System.Drawing.Size(100, 20);
+            this.txtFactura.Size = new System.Drawing.Size(177, 20);
             this.txtFactura.TabIndex = 4;
             this.txtFactura.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
@@ -96,7 +96,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(337, 191);
+            this.ClientSize = new System.Drawing.Size(433, 191);
             this.Controls.Add(this.bttnAgregar);
             this.Controls.Add(this.txtFactura);
             this.Controls.Add(this.label3);

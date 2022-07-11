@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.txtContra = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtDNI = new System.Windows.Forms.TextBox();
@@ -48,9 +50,15 @@
             this.rbSi = new System.Windows.Forms.RadioButton();
             this.rbNo = new System.Windows.Forms.RadioButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider3 = new System.Windows.Forms.ErrorProvider(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).BeginInit();
             this.SuspendLayout();
             // 
             // txtContra
@@ -58,8 +66,11 @@
             this.txtContra.Location = new System.Drawing.Point(76, 97);
             this.txtContra.Name = "txtContra";
             this.txtContra.PasswordChar = '*';
-            this.txtContra.Size = new System.Drawing.Size(100, 20);
+            this.txtContra.Size = new System.Drawing.Size(136, 20);
             this.txtContra.TabIndex = 15;
+            this.txtContra.MouseLeave += new System.EventHandler(this.txtContra_MouseLeave);
+            this.txtContra.MouseUp += new System.Windows.Forms.MouseEventHandler(this.txtContra_MouseUp);
+            this.txtContra.Validating += new System.ComponentModel.CancelEventHandler(this.txtContra_Validating);
             // 
             // label4
             // 
@@ -74,25 +85,27 @@
             // 
             this.txtDNI.Location = new System.Drawing.Point(76, 73);
             this.txtDNI.Name = "txtDNI";
-            this.txtDNI.Size = new System.Drawing.Size(100, 20);
+            this.txtDNI.Size = new System.Drawing.Size(136, 20);
             this.txtDNI.TabIndex = 13;
             this.txtDNI.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDNI_KeyPress);
+            this.txtDNI.Validating += new System.ComponentModel.CancelEventHandler(this.txtDNI_Validating);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(13, 76);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(26, 13);
+            this.label3.Size = new System.Drawing.Size(29, 13);
             this.label3.TabIndex = 12;
-            this.label3.Text = "Dni:";
+            this.label3.Text = "DNI:";
             // 
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(76, 47);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(100, 20);
+            this.txtEmail.Size = new System.Drawing.Size(136, 20);
             this.txtEmail.TabIndex = 11;
+            this.txtEmail.Validating += new System.ComponentModel.CancelEventHandler(this.txtEmail_Validating);
             // 
             // label2
             // 
@@ -107,10 +120,10 @@
             // 
             this.txtNom.Location = new System.Drawing.Point(76, 21);
             this.txtNom.Name = "txtNom";
-            this.txtNom.Size = new System.Drawing.Size(100, 20);
+            this.txtNom.Size = new System.Drawing.Size(136, 20);
             this.txtNom.TabIndex = 9;
-            this.txtNom.TextChanged += new System.EventHandler(this.txtNom_TextChanged);
             this.txtNom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNom_KeyPress);
+            this.txtNom.Validating += new System.ComponentModel.CancelEventHandler(this.txtNom_Validating);
             // 
             // label1
             // 
@@ -123,7 +136,7 @@
             // 
             // bttnRegistrar
             // 
-            this.bttnRegistrar.Location = new System.Drawing.Point(12, 123);
+            this.bttnRegistrar.Location = new System.Drawing.Point(35, 123);
             this.bttnRegistrar.Name = "bttnRegistrar";
             this.bttnRegistrar.Size = new System.Drawing.Size(164, 42);
             this.bttnRegistrar.TabIndex = 16;
@@ -138,9 +151,9 @@
             this.groupBox1.Controls.Add(this.txtNomLogin);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Location = new System.Drawing.Point(25, 100);
+            this.groupBox1.Location = new System.Drawing.Point(25, 62);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(213, 144);
+            this.groupBox1.Size = new System.Drawing.Size(230, 145);
             this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Login";
@@ -148,7 +161,7 @@
             // 
             // bttnLogin
             // 
-            this.bttnLogin.Location = new System.Drawing.Point(22, 79);
+            this.bttnLogin.Location = new System.Drawing.Point(22, 78);
             this.bttnLogin.Name = "bttnLogin";
             this.bttnLogin.Size = new System.Drawing.Size(164, 42);
             this.bttnLogin.TabIndex = 18;
@@ -161,14 +174,14 @@
             this.txtContraLogin.Location = new System.Drawing.Point(81, 52);
             this.txtContraLogin.Name = "txtContraLogin";
             this.txtContraLogin.PasswordChar = '*';
-            this.txtContraLogin.Size = new System.Drawing.Size(100, 20);
+            this.txtContraLogin.Size = new System.Drawing.Size(136, 20);
             this.txtContraLogin.TabIndex = 21;
             // 
             // txtNomLogin
             // 
             this.txtNomLogin.Location = new System.Drawing.Point(81, 22);
             this.txtNomLogin.Name = "txtNomLogin";
-            this.txtNomLogin.Size = new System.Drawing.Size(100, 20);
+            this.txtNomLogin.Size = new System.Drawing.Size(136, 20);
             this.txtNomLogin.TabIndex = 19;
             this.txtNomLogin.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNomLogin_KeyPress);
             // 
@@ -210,9 +223,9 @@
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.bttnRegistrar);
             this.groupBox2.Controls.Add(this.txtContra);
-            this.groupBox2.Location = new System.Drawing.Point(31, 62);
+            this.groupBox2.Location = new System.Drawing.Point(25, 62);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(212, 185);
+            this.groupBox2.Size = new System.Drawing.Size(253, 176);
             this.groupBox2.TabIndex = 22;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Registrarse";
@@ -240,7 +253,6 @@
             this.rbNo.TabStop = true;
             this.rbNo.Text = "No";
             this.rbNo.UseVisualStyleBackColor = true;
-            this.rbNo.CheckedChanged += new System.EventHandler(this.rbNo_CheckedChanged);
             // 
             // groupBox3
             // 
@@ -251,25 +263,45 @@
             this.groupBox3.Size = new System.Drawing.Size(134, 33);
             this.groupBox3.TabIndex = 25;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
+            this.errorProvider1.ContainerControl = this;
+            this.errorProvider1.Icon = ((System.Drawing.Icon)(resources.GetObject("errorProvider1.Icon")));
+            // 
+            // errorProvider2
+            // 
+            this.errorProvider2.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
+            this.errorProvider2.ContainerControl = this;
+            this.errorProvider2.Icon = ((System.Drawing.Icon)(resources.GetObject("errorProvider2.Icon")));
+            // 
+            // errorProvider3
+            // 
+            this.errorProvider3.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
+            this.errorProvider3.ContainerControl = this;
+            this.errorProvider3.Icon = ((System.Drawing.Icon)(resources.GetObject("errorProvider3.Icon")));
             // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(269, 275);
+            this.ClientSize = new System.Drawing.Size(282, 254);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.groupBox1);
             this.Name = "Inicio";
-            this.Text = "Bienvenidos!!!";
+            this.Text = "Bienvenido!!!";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -297,6 +329,9 @@
         private System.Windows.Forms.RadioButton rbSi;
         private System.Windows.Forms.RadioButton rbNo;
         private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.ErrorProvider errorProvider2;
+        private System.Windows.Forms.ErrorProvider errorProvider3;
     }
 }
 

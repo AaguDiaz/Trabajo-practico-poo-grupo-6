@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Controladora;
 using System.Data.SqlClient;
+using System.Text.RegularExpressions;
+using System.ComponentModel.DataAnnotations;
 
 namespace venta
 {
@@ -37,7 +39,7 @@ namespace venta
         }
         private void bttnAgregar_Click(object sender, EventArgs e)
         {
-            if (txtFactura.Text == "")
+            if (txtFactura.Text == "" || ValidaFactura(txtFactura.Text)==false)
             {
                 MessageBox.Show("falta cargar factura", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -52,6 +54,21 @@ namespace venta
                 }catch (Exception ex)
                 {
                     MessageBox.Show(ex.ToString());
+                }
+            }
+
+            bool ValidaFactura(string factura)
+            {
+
+                if (Regex.Match(factura, @"^[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]$").Success == true)
+                {
+                    //factura correcto
+                    return true;
+                }
+                else
+                {
+                    //factura incorrecto
+                    return false;
                 }
             }
         }
