@@ -1,0 +1,33 @@
+C:\Users\Agustin\source\repos\venta\Controladora\bin\Debug\Controladora.dll.config
+C:\Users\Agustin\source\repos\venta\Controladora\bin\Debug\Controladora.dll
+C:\Users\Agustin\source\repos\venta\Controladora\bin\Debug\Controladora.pdb
+C:\Users\Agustin\source\repos\venta\Controladora\bin\Debug\Modelo.dll
+C:\Users\Agustin\source\repos\venta\Controladora\bin\Debug\Modelo.pdb
+C:\Users\Agustin\source\repos\venta\Controladora\bin\Debug\Modelo.dll.config
+C:\Users\Agustin\source\repos\venta\Controladora\obj\Debug\Controladora.csproj.AssemblyReference.cache
+C:\Users\Agustin\source\repos\venta\Controladora\obj\Debug\Controladora.csproj.CoreCompileInputs.cache
+C:\Users\Agustin\source\repos\venta\Controladora\obj\Debug\Controladora.csproj.CopyComplete
+C:\Users\Agustin\source\repos\venta\Controladora\obj\Debug\Controladora.dll
+C:\Users\Agustin\source\repos\venta\Controladora\obj\Debug\Controladora.pdb
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\Controladora\bin\Debug\Controladora.dll.config
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\Controladora\bin\Debug\Controladora.dll
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\Controladora\bin\Debug\Controladora.pdb
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\Controladora\bin\Debug\Modelo.dll
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\Controladora\bin\Debug\Modelo.pdb
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\Controladora\bin\Debug\Modelo.dll.config
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\Controladora\obj\Debug\Controladora.csproj.AssemblyReference.cache
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\Controladora\obj\Debug\Controladora.csproj.CoreCompileInputs.cache
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\Controladora\obj\Debug\Controladora.csproj.CopyComplete
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\Controladora\obj\Debug\Controladora.dll
+F:\Documentos\2 año\Programacion Orientada a Objetos\LABORATORIO\Trabajo-practico-poo-grupo-6\Controladora\obj\Debug\Controladora.pdb
+C:\Users\Agustin\Desktop\Trabajo-practico-poo-grupo-6-maintf\Controladora\bin\Debug\Controladora.dll.config
+C:\Users\Agustin\Desktop\Trabajo-practico-poo-grupo-6-maintf\Controladora\bin\Debug\Controladora.dll
+C:\Users\Agustin\Desktop\Trabajo-practico-poo-grupo-6-maintf\Controladora\bin\Debug\Controladora.pdb
+C:\Users\Agustin\Desktop\Trabajo-practico-poo-grupo-6-maintf\Controladora\bin\Debug\Modelo.dll
+C:\Users\Agustin\Desktop\Trabajo-practico-poo-grupo-6-maintf\Controladora\bin\Debug\Modelo.pdb
+C:\Users\Agustin\Desktop\Trabajo-practico-poo-grupo-6-maintf\Controladora\bin\Debug\Modelo.dll.config
+C:\Users\Agustin\Desktop\Trabajo-practico-poo-grupo-6-maintf\Controladora\obj\Debug\Controladora.csproj.AssemblyReference.cache
+C:\Users\Agustin\Desktop\Trabajo-practico-poo-grupo-6-maintf\Controladora\obj\Debug\Controladora.csproj.CoreCompileInputs.cache
+C:\Users\Agustin\Desktop\Trabajo-practico-poo-grupo-6-maintf\Controladora\obj\Debug\Controladora.csproj.CopyComplete
+C:\Users\Agustin\Desktop\Trabajo-practico-poo-grupo-6-maintf\Controladora\obj\Debug\Controladora.dll
+C:\Users\Agustin\Desktop\Trabajo-practico-poo-grupo-6-maintf\Controladora\obj\Debug\Controladora.pdb
